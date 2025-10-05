@@ -2,19 +2,85 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Family Shield VPN | Покупка</title>
+  <title>Family Shield VPN</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>body{max-width:480px;margin:0 auto;padding:30px;font-family:sans-serif;}button{font-size:18px;padding:10px 24px;}</style>
+  <style>
+    body {
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #20242c;
+      color: #fff;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px 0 #0004;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2.0em;
+      letter-spacing: 1.5px;
+    }
+    .logo {
+      width: 112px;
+      height: 112px;
+      margin-bottom: 12px;
+    }
+    .accent {
+      color: #4cd9af;
+      font-weight: bold;
+    }
+    button {
+      background: #4cd9af;
+      color: #111;
+      font-size: 1.15em;
+      border: none;
+      border-radius: 9px;
+      padding: 11px 26px;
+      margin: 16px 0 10px 0;
+      box-shadow: 0 2px 7px #2223;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #62ffe5;
+    }
+    ul {
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 16px;
+    }
+    ul li::before {
+      content: '🛡️ ';
+    }
+    .info {
+      font-size: 1em;
+      color: #b8c7d0;
+      margin-top: 13px;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <h2>Family Shield VPN</h2>
-  <p>Доступ к VPN: оплата через Telegram Stars внутри бота <b>@myxrayvpn_bot</b>.</p>
+  <img src="https://user-gen-media-assets.s3.amazonaws.com/gemini_images/78af5e26-6292-4af8-8529-746b90412a56.png" alt="Family Shield logo" class="logo">
+
+  <h1>Family Shield VPN</h1>
+  <div class="accent">VPN, который делал для своей семьи — теперь доступен всем друзьям!</div>
+  <p class="info">Быстрый, безопасный, подключается в пару кликов.<br>
+    Пробный период, рефералы, подписка и поддержка прямо в Telegram.<br>
+    <span class="accent">iPhone &bull; Android &bull; Любое устройство</span>
+  </p>
   <ul>
-    <li>1 месяц — 155 Telegram Star</li>
+    <li>1 месяц — 155 Telegram Stars</li>
     <li>6 месяцев — 355 Telegram Stars</li>
   </ul>
-  <p>После оплаты получите личную ссылку подключения.</p>
-  <button onclick="window.open('https://t.me/myxrayvpn_bot')">Открыть бота</button>
-  <p style="margin-top:2em;color:gray;font-size:small;">Family Shield VPN, 2025</p>
+  <p>Оплата через Telegram Stars внутри бота <b>@myxrayvpn_bot</b>.</p>
+  <button onclick="window.open('https://t.me/myxrayvpn_bot','_blank');">Открыть бота</button>
+  <div class="footer">Family Shield VPN, 2025</div>
 </body>
 </html>
